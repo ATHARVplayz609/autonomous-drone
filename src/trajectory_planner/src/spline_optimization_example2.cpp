@@ -31,6 +31,8 @@ int main(int argc, char **argv) {
 
   srand((unsigned int) time(0));
 
+
+  
   ros::init(argc, argv, "spline_optimization_example");
   ros::NodeHandle nh;
 
